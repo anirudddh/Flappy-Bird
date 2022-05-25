@@ -1,0 +1,53 @@
+html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body, h1, canvas, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h4 {
+    margin: 10px;
+    color: wheat;
+}
+
+body {
+    background-color: #121212;
+}
+
+#canvas {
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.red-button {
+  width: 200px;
+  height: 100px;
+  background-color: #FF0000;
+  border-radius: 80px;
+  border: none;
+  outline: none;
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.5), inset 5px 5px 15px rgb(0, 0, 0);
+  font-family: Helvetica;
+  font-size: 40px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  margin: 30px 0;
+}
+
+.red-button:hover {
+  cursor: pointer;
+}
+
+.red-button:active {
+  background-color: darkred;
+}
